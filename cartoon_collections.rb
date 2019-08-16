@@ -1,7 +1,7 @@
 def roll_call_dwarves(arr)
-  num = 1
-  arr.map { |name, num| 
-    puts "#{num}. #{name}"
+  num = 0
+  arr.map { |name| 
+    puts "#{arr[num]}. #{name}"
     num += 1
   }
 end
