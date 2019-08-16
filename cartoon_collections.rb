@@ -13,11 +13,13 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  if arr.length > 3
-    return TRUE
-  else
-    return FALSE
-  end
+  arr.map { |call|
+    newArr = call.split("")
+    if newArr.length > 3
+      return true
+    end
+  }
+  return false
 end
 
 def find_the_cheese# code an argument here
