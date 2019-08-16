@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(arr)
   arr.map { |call|
     newArr = call.split("")
-    if newArr.length > 3
+    if newArr.length > 4
       return true
     else
       return false
