@@ -16,11 +16,10 @@ def long_planeteer_calls(arr)
   arr.map { |call|
     newArr = call.split("")
     if newArr.length > 4
-      return true
-    else
-      return false
+      return TRUE
     end
   }
+  return FALSE
 end
 
 def find_the_cheese# code an argument here
