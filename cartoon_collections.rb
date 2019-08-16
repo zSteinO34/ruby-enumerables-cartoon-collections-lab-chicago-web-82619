@@ -29,5 +29,5 @@ def find_the_cheese(arr)
     end
   }
   return nil
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  #cheese_types = ["cheddar", "gouda", "camembert"]
 end
