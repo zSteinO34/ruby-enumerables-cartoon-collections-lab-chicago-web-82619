@@ -10,6 +10,7 @@ def summon_captain_planet(arr)
     word.capitalize
     new << "#{word}!"
   }
+  return new
 end
 
 def long_planeteer_calls# code an argument here
