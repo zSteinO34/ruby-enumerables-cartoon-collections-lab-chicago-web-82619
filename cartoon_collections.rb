@@ -7,7 +7,6 @@ end
 def summon_captain_planet(arr)
   new = []
   arr.map { |word|
-    word.capitalize
     new.push("#{word}!")
   }
   return new
