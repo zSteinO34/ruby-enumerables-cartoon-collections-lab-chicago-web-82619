@@ -1,6 +1,6 @@
 def roll_call_dwarves(arr)
   arr.map { |name| 
-    puts name
+    puts "1. #{name}"
   }
 end
 
