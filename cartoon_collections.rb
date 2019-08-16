@@ -17,9 +17,10 @@ def long_planeteer_calls(arr)
     newArr = call.split("")
     if newArr.length > 3
       return true
+    else
+      return false
     end
   }
-  return false
 end
 
 def find_the_cheese# code an argument here
