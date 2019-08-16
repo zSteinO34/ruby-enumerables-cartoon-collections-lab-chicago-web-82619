@@ -24,7 +24,7 @@ end
 
 def find_the_cheese(arr)
   arr.map { |str|
-    if str == "cheddar" || 
+    if str == "cheddar" || str ==
   }
   
   cheese_types = ["cheddar", "gouda", "camembert"]
